@@ -134,6 +134,9 @@ nav a {
     align-items: center;
     min-height: 80vh;
 }
+.dl {
+    font-size:30px;
+}
 
 .box {
     position: relative;
@@ -207,11 +210,33 @@ nav a {
     background: rgba(0, 0, 0, 0.8);
     color: #fff;
     padding: 10px;
-    margin: 10px;
+    margin: 50px;
     border: 1px solid #ccc;
     border-radius: 8px;
     height: 75vh;
     font-size: 20px;
+}
+
+.med {
+    position: relative;
+    overflow: hidden;
+    padding: 5px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.3);
+    height: 50vh;
+    width: 30vw;
+    text-align: center;
+    margin-top: 200px;
+    margin: 5px;
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    color: #fff;
+    text-shadow: 2px 5px 5px rgba(0, 0, 0, 1);
+    background-position: center;
+    background-size: cover;
 }
 
 .docbox {
@@ -250,6 +275,14 @@ nav a {
         max-width: none;
         margin: 10px 0;
         height: auto;
+    }
+
+    .med {
+        width: 82%;
+        padding: -15px;
+        max-width: none;
+        margin: 5px;
+        height: 40vh;
     }
 
     nav .icon {
@@ -324,5 +357,6 @@ nav a {
     }
     .doccon {
         font-size: 3vw;
+
     }
 }
