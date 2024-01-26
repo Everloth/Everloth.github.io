@@ -159,7 +159,7 @@ nav a {
 }
 
 .ch {
-    align-items: flex-start;
+    align-items: start;
 }
 
 .box::after {
