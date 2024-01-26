@@ -244,6 +244,7 @@ nav a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: justify;
 }
 
     .docbox img {
@@ -251,15 +252,45 @@ nav a {
     }
 
     .docbox a {
-        color: yellow;
+        color: cyan;
         text-decoration: none;
     }
+
 .iicon {
     width: 15vh;
     height: 15vh;
     align-items: center;
 }
 
+
+.wikiobr {
+    display: flex;
+    flex-direction: column;
+    position: left;
+    background: #333;
+    margin: 10px;
+}
+
+    .wikiobr img {
+        border-radius: 10px;
+    }
+
+    .wikiobr a {
+        color: cyan;
+        text-decoration: none;
+    }
+    .wikiobr ul {
+        margin-left: 15px;
+        margin: 2px;
+        list-style-type: none;
+    }
+    .wikiobr h4 {
+        margin: 5px;
+    }
+    .sico {
+        content: url('assets/images/Sir.png');
+        height: 18px;
+    }
 
 
 
