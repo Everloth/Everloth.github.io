@@ -5,7 +5,6 @@ body {
     background-position: center;
     background-color: #01080a;
     background-repeat: no-repeat;
-    height: 90vh;
 }
 
     body.Nether {
@@ -134,8 +133,9 @@ nav a {
     align-items: center;
     min-height: 80vh;
 }
+
 .dl {
-    font-size:30px;
+    font-size: 30px;
 }
 
 .box {
@@ -210,11 +210,15 @@ nav a {
     background: rgba(0, 0, 0, 0.8);
     color: #fff;
     padding: 10px;
-    margin: 50px;
+    margin-top: 10px;
     border: 1px solid #ccc;
     border-radius: 8px;
-    height: 75vh;
     font-size: 20px;
+}
+
+.wikup {
+    margin: 10px 15px 2px 15px;
+    padding: 2px 5px 2px 5px;
 }
 
 .med {
@@ -245,10 +249,15 @@ nav a {
     flex-direction: column;
     align-items: center;
     text-align: justify;
+    padding: 10px;
 }
 
     .docbox img {
         border-radius: 8px;
+    }
+
+    .docbox h2 {
+        margin: 5px;
     }
 
     .docbox a {
@@ -269,33 +278,41 @@ nav a {
     position: left;
     background: #333;
     margin: 10px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    text-shadow: 2px 5px 5px rgba(0, 0, 0, 1);
 }
 
     .wikiobr img {
         border-radius: 10px;
+        width: 350px;
+        height: 300px;
     }
 
     .wikiobr a {
         color: cyan;
         text-decoration: none;
     }
+
     .wikiobr ul {
         margin-left: 15px;
         margin: 2px;
         list-style-type: none;
     }
+
     .wikiobr h4 {
         margin: 5px;
     }
-    .sico {
-        content: url('assets/images/Sir.png');
-        height: 18px;
-    }
+
+.sico {
+    content: url('assets/images/Sir.png');
+    height: 18px;
+}
 
 
 
 /* Media query */
-@media (max-width: 750px) {
+@media (max-width: 800px) {
     .boxes-container {
         flex-direction: column;
         align-items: center;
@@ -386,8 +403,31 @@ nav a {
         width: 10vh;
         height: 10vh;
     }
+
     .doccon {
-        font-size: 3vw;
-        margin: 5px;
+        flex-direction: column;
+        align-items: center;
+        display: flex;
     }
+
+        .doccon p {
+            font-size: 15px;
+        }
+
+    .docbox {
+        order: 2;
+        text-align: justify;
+    }
+
+        .docbox h2 {
+            margin: -5px 5px 5px 5px;
+        }
+
+    .wikiobr {
+        order: 1;
+    }
+
+        .wikiobr img {
+            width: 80vw;
+        }
 }
