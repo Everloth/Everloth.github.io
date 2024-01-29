@@ -1,7 +1,7 @@
 /* Background */
 body {
     background-image: url('assets/images/BG.jpg');
-    background-size: cover;
+    background-size: auto;
     background-position: center;
     background-color: #01080a;
     background-repeat: no-repeat;
@@ -217,7 +217,7 @@ nav a {
     border: 1px solid #ccc;
     border-radius: 8px;
     font-size: 20px;
-    height: 75vh;
+    min-height: 75vh;
 }
 
 .wikup {
