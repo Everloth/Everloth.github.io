@@ -1,7 +1,7 @@
 /* Background */
 body {
     background-image: url('assets/images/BG.jpg');
-    background-size: auto;
+    background-size: cover;
     background-position: center;
     background-color: #01080a;
     background-repeat: no-repeat;
