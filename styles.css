@@ -23,7 +23,7 @@ header {
     background-color: #333;
     padding: 10px 10px;
     background-image: url('assets/images/Nas.png');
-    background-size: auto;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     color: #fff;
@@ -38,6 +38,9 @@ header {
 
     header.End {
         background-image: url('assets/images/EBG.jpg');
+    }
+    header.San {
+        background-image: url('assets/images/mortis.png');
     }
 
 .logo {
@@ -304,6 +307,11 @@ nav a {
         margin: 5px;
     }
 
+    .wikiobr h3 {
+        margin: 5px;
+        text-align: center;
+    }
+
 .sico {
     content: url('assets/images/Sir.png');
     height: 18px;
@@ -408,6 +416,7 @@ nav a {
         flex-direction: column;
         align-items: center;
         display: flex;
+        margin: 5px 0 0 0;
     }
 
         .doccon p {
@@ -415,16 +424,19 @@ nav a {
         }
 
         .doccon td {
-            padding: 15px 0 15px 0;
+            padding: 10px 0 10px 0;
+            font-size: 15px;
         }
 
     .docbox {
         order: 2;
         text-align: justify;
+        margin: 0px;
     }
 
         .docbox h2 {
-            margin: -5px 5px 5px 5px;
+            margin: -10px;
+            font-size: 0;
         }
 
     .wikiobr {
@@ -432,7 +444,8 @@ nav a {
     }
 
         .wikiobr img {
-            width: 80vw;
+            width: 90vw;
+            height: 30vh;
         }
 
 }
