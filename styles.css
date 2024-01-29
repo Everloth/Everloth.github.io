@@ -414,6 +414,10 @@ nav a {
             font-size: 15px;
         }
 
+        .doccon td {
+            padding: 15px 0 15px 0;
+        }
+
     .docbox {
         order: 2;
         text-align: justify;
@@ -430,4 +434,5 @@ nav a {
         .wikiobr img {
             width: 80vw;
         }
+
 }
