@@ -290,6 +290,10 @@ nav a {
     align-items: center;
 }
 
+    .lok {
+        width: 30vh;
+        height: 30vh;
+    }
 
 .wikiobr {
     display: flex;
