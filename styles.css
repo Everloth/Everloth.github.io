@@ -334,6 +334,15 @@ nav a {
 
 }
 
+.board {
+    margin-top: 20px;
+    text-align: center; /* Wyœrodkowanie obrazka */
+}
+
+    .board img {
+        max-width: 70%; /* Dopasowanie obrazka do szerokoœci klasy board */
+        height: auto; /* Zapobiega zniekszta³ceniu proporcji */
+    }
 
 
 /* Media query */
