@@ -222,8 +222,8 @@ nav a {
     display: flex;
     background: rgba(0, 0, 0, 0.8);
     color: #fff;
-    padding: 10px;
-    margin-top: 10px;
+    padding: 2px 5px 2px 5px;
+    margin: 10px 15px 2px 15px;
     border: 1px solid #ccc;
     border-radius: 8px;
     font-size: 20px;
@@ -236,9 +236,9 @@ nav a {
     }
 
 .wikup {
-    margin: 10px 15px 2px 15px;
-    padding: 2px 5px 2px 5px;
+    align-items: flex-start;
 }
+
 
 .med {
     position: relative;
@@ -304,17 +304,19 @@ nav a {
     padding-bottom: 15px;
     border-radius: 10px;
     text-shadow: 2px 5px 5px rgba(0, 0, 0, 1);
+    width: 350px;
 }
 
     .wikiobr img {
         border-radius: 10px;
-        width: 350px;
+        
         height: 300px;
     }
 
     .wikiobr a {
         color: cyan;
         text-decoration: none;
+        padding-bottom:0;
     }
 
     .wikiobr ul {
