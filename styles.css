@@ -304,13 +304,13 @@ nav a {
     padding-bottom: 15px;
     border-radius: 10px;
     text-shadow: 2px 5px 5px rgba(0, 0, 0, 1);
-    width: 350px;
 }
 
     .wikiobr img {
         border-radius: 10px;
-        
+        width: 350px;
         height: 300px;
+        object-fit: cover;
     }
 
     .wikiobr a {
