@@ -239,6 +239,9 @@ nav a {
     align-items: flex-start;
 }
 
+.solo {
+    margin: 10px 65px 10px 65px;
+}
 
 .med {
     position: relative;
