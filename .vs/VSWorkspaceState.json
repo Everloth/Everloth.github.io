@@ -1,11 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\dzieje",
     "\\frakcje",
     "\\krainy",
+    "\\lokacje",
     "\\postacie"
   ],
-  "SelectedNode": "\\postacie",
+  "SelectedNode": "\\postacie\\nieznajomy.html",
   "PreviewInSolutionExplorer": false
 }
