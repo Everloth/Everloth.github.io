@@ -353,6 +353,10 @@ nav a {
         height: auto;
     }
 
+.Scam{
+    height: 80px;
+    width: auto;
+}
 
 /* Media query */
 @media (max-width: 800px) {
